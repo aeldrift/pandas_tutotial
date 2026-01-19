@@ -4,5 +4,6 @@
 
 import pandas as pd
 
-a = pd.Series()
-print(a)
+x = [1,2,3,4,5,6,7]
+var = pd.Series(x)
+print(var)
