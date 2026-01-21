@@ -14,4 +14,4 @@ print("value at idx 2",var[2]) # to access using index
 var = pd.Series(x, index=['a','b','c','d','e'])
 print(var)
 
-
+print(var['c'])  # access using label
