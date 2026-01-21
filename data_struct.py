@@ -15,3 +15,12 @@ var = pd.Series(x, index=['a','b','c','d','e'])
 print(var)
 
 print(var['c'])  # access using label
+print(var[[1, 3]])  # access multiple values
+
+# Some useful Series attributes
+
+print(var.values)   # underlying data
+print(var.index)    # index labels
+print(var.dtype)    # data type
+
+
