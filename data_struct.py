@@ -9,3 +9,5 @@ var = pd.Series(x)
 print(var)
 print(type(var)) # type of var
 print("value at idx 2",var[2]) # to access using index
+
+# Creating a Series with a custom index
