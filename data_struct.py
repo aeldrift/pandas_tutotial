@@ -11,3 +11,7 @@ print(type(var)) # type of var
 print("value at idx 2",var[2]) # to access using index
 
 # Creating a Series with a custom index
+var = pd.Series(x, index=['a','b','c','d','e'])
+print(var)
+
+
