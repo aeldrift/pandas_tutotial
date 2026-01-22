@@ -23,4 +23,8 @@ print(var.values)   # underlying data
 print(var.index)    # index labels
 print(var.dtype)    # data type
 
+# Creating Series from a dictionary
+data = {'a': 100, 'b': 200, 'c': 300}
+var = pd.Series(data)
+print(var)
 
