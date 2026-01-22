@@ -37,3 +37,8 @@ s2 = pd.Series([10, 20, 30], index=['a','b','c'])
 
 print(s1 + s2)  # pandas align with idx
 
+s = pd.Series([10, 20, None, 40])
+print(s)
+
+print(s.isnull())     # check missing values
+print(s.notnull())    # opposite
