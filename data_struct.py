@@ -28,3 +28,8 @@ data = {'a': 100, 'b': 200, 'c': 300}
 var = pd.Series(data)
 print(var)
 
+# can also apply arithmetic opearations
+print(var + 10)     # add scalar
+print(var * 2)      # multiply
+
+
