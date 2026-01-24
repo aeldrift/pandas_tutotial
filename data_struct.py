@@ -42,3 +42,27 @@ print(s)
 
 print(s.isnull())     # check missing values
 print(s.notnull())    # opposite
+
+# Creating a Series with a custom data type
+var = pd.Series(x,dtype=float)
+print(var)
+
+# to give data name:
+var = pd.Series(x,name="Python")
+print(var) # O/P: Name: Python, dtype: int64
+
+print()
+
+dict ={"name":[ 'Python', 'C', 'C++','Java',], "id":[12,13,14,15],"rank":[1,2,3,4]}
+var1 = pd.Series(dict)
+print(var1)
+
+# make a series using single data:
+s = pd.Series(12, index=[1,2,3,4])
+print(f"{s}, type of s is: {type(s)}")
+
+# broadcasting 
+s1 = pd.Series(12, index=[1,2,3,4,5,6])
+s2 = pd.Series(12, index=[1,2,3,4])
+print(s1+s2)
+
